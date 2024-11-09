@@ -1,0 +1,45 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  /* padding: 2rem; */
+}
+.book-card {
+  max-width: 160px; 
+  min-width: 140px; 
+  border-radius: 8px; 
+  overflow: hidden; 
+  height: 50px; 
+}
+
+.book-cover {
+  width: 100%; /* Ensure the cover image fills the card */
+  height: 180px; /* Set a smaller height for the image */
+  object-fit: cover; /* Make sure the image covers the space without distorting */
+}
+
+.card-body {
+  padding: 8px; /* Reduced padding to make the content more compact */
+}
+
+.card-title {
+  font-size: 0.9rem; /* Smaller font size for the title */
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Truncate long titles */
+}
+
+.card-text {
+  font-size: 0.75rem; /* Smaller font size for the author and publish year */
+  color: #6c757d; /* Lighter text color for secondary information */
+}
+
+.card-body p {
+  margin-bottom: 5px; /* Reduce spacing between lines */
+}
+
+.text-truncate {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
